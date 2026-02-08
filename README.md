@@ -49,7 +49,6 @@ Built to help students **organize, practice, and track progress** across DSA top
 ## 🔌 API Endpoints
 
 ### Get Question Sheet
-### Get Question Sheet
 GET /api/sheet
 
 
