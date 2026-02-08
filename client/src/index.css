@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+/* ===== MANUAL THEME SYSTEM (SINGLE SOURCE OF TRUTH) ===== */
+
+.app-root {
+  min-height: 100vh;
+
+  /* ---------- LIGHT THEME ---------- */
+  --bg-main: #f4f4f5;
+  --bg-card: #ffffff;
+  --bg-sub: #f1f5f9;
+  --bg-row: #ffffff;
+
+  --text-main: #111827;
+  --text-muted: #6b7280;
+
+  --border-main: #e5e7eb;
+
+  background: var(--bg-main);
+  color: var(--text-main);
+
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.app-root.dark {
+  /* ---------- DARK THEME ---------- */
+  --bg-main: #09090b;
+  --bg-card: #18181b;
+  --bg-sub: #27272a;
+  --bg-row: #18181b;
+
+  --text-main: #f4f4f5;
+  --text-muted: #a1a1aa;
+
+  --border-main: #27272a;
+}
