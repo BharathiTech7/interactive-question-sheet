@@ -2,7 +2,7 @@ import { create } from "zustand";
 import { arrayMove } from "@dnd-kit/sortable";
 
 const syncSheet = async (sheet) => {
-  await fetch("http://localhost:5000/api/sheet", {
+  await fetch("https://iqs-backend.onrender.com/api/sheet", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(sheet),
@@ -13,7 +13,7 @@ export const useSheetStore = create((set, get) => ({
   sheet: null,
 
   fetchSheet: async () => {
-    const res = await fetch("http://localhost:5000/api/sheet");
+    const res = await fetch("https://iqs-backend.onrender.com/api/sheet");
     const data = await res.json();
     set({ sheet: data });
   },
