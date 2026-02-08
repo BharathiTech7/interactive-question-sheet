@@ -58,10 +58,10 @@ interactive-question-sheet/
 ├── .gitignore
 └── README.md
 
----
+
 
 ## 🔌 API Endpoints
-
+---
 ### Get Question Sheet
 GET /api/sheet
 
@@ -80,17 +80,17 @@ Drag & drop updates state instantly
 Theme toggle switches CSS variables globally
 
 Progress updates automatically based on completed questions
----
-🚧 Current Limitations
 
+🚧 Current Limitations
+---
 No database (data resets when backend restarts)
 
 Single-user system
 
 No authentication yet
----
 
 🚀 Future Enhancements
+---
 
 Database integration (MongoDB / PostgreSQL)
 
@@ -101,14 +101,14 @@ Cloud sync
 Analytics dashboard
 
 Mobile-first optimization
----
-🧑‍💻 Author
 
+🧑‍💻 Author
+---
 Bharathi Reddy
 GitHub: https://github.com/BharathiTech7
----
-❤️ Acknowledgements
 
+❤️ Acknowledgements
+---
 Inspired by:
 
 Codolio
