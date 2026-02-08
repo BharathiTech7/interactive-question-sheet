@@ -15,7 +15,7 @@ function App() {
   );
 
   /* ---------- THEME ---------- */
-  const [dark, setDark] = useState(true);
+  const [dark, setDark] = useState(false);
 
   /* ---------- TOPIC SCROLL ---------- */
   const topicRefs = useRef({});
